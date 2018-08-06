@@ -9,6 +9,11 @@ sudo apt-add-repository ppa:webupd8team/java
 sudo apt-get update 
 sudo apt-get install oracle-java8-installer
 java -version
+clear
+sudo gedit /etc/profile
+
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+
 
 
 
