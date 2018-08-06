@@ -1,5 +1,18 @@
 # workshop_kotlin
 
+
+How to install Oracle Java JDK on Ubuntu Linux
+
+Ouvrez le terminal
+
+sudo apt-add-repository ppa:webupd8team/java 
+sudo apt-get update 
+sudo apt-get install oracle-java8-installer
+
+
+
+How to install Android Studio in Ubuntu Linux
+
 https://developer.android.com/studio/
 
 Ouvrez le terminal dans le dossier bin
