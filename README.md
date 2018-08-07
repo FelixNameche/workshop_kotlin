@@ -15,7 +15,7 @@ Il offre beaucoup de fonctionnalités, c'est un language plus riche, flexible et
 Une page officielle détaille plus précisément les différences que l’on peut trouver avec Java : https://kotlinlang.org/docs/reference/comparison-to-java.html
 
 ### Quel avenir pour Java et C/C++ sur Android ?
-Sur scène, Google l’a affirmé haut et fort : le support de Java, C et C++ sera le même qu’aujourd’hui. Kotlin est simplement un nouveau langage supporté pour faciliter la vie des développeurs (un langage plus concis, c’est également moins d’erreurs potentielles, et donc moins de crashs à long terme). Le développement des applications étant facilité, si l'on débute dans le développement Android, il faut peut être penser à passer directement à Kotlin !
+Sur scène, Google l’a affirmé haut et fort : le support de Java, C et C++ sera le même qu’aujourd’hui. Kotlin est simplement un nouveau langage supporté pour faciliter la vie des développeurs (un langage plus concis, c’est moins d’erreurs potentielles, et donc moins de crashs à long terme). Le développement des applications étant facilité, si l'on débute dans le développement Android, il faut peut être penser à passer directement à Kotlin !
 
 
 
