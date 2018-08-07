@@ -50,6 +50,12 @@ Le mot clé **data** indique au compilateur que la classe est utilisée pour rep
 ```shell
 data class Contact (val firstName: String, val lastName: String)
 ```
+Une déclaration déstructurée génère plusieurs variables à la fois. Nous avons déclaré deux nouvelles variables : nom et âge que nous pouvons utiliser indépendamment.
+```shell
+val (firstname, lastname) = Contact("john", "rambo")
+println(firstname)
+println(lastname)
+```
 .  
 .  
 .  
