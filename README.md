@@ -2,6 +2,11 @@
 
 ![Logo Laravel](kotlin.png)
 
+## Introduction
+### Qu'est-ce que Kotlin ?
+
+***Définition:*** Kotlin est un langage de programmation orienté objet et fonctionnel, avec un typage statique qui permet de compiler pour la machine virtuelle Java et JavaScript.
+
 
 How to install Oracle Java JDK on Ubuntu Linux
 
