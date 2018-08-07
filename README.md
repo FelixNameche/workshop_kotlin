@@ -27,6 +27,9 @@ Google a affirmé haut et fort que le support de Java, C et C++ sera le même qu
 
 ## Mise en place
 ### Val et var
+```shell
+composer update
+```
 ### Il vaut mieux utiliser IntelliJ IDEA ou Android Studio pour Kotlin
 ### Installation
 How to install Oracle Java JDK on Ubuntu Linux
