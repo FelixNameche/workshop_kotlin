@@ -34,6 +34,15 @@ String firstName = "Hello world";
 //Kotlin
 var firstName: String = "Hello world"
 ```
+<pre>
+    <code>
+        //Java
+        String firstName = "Hello world";
+
+        //Kotlin
+        var firstName: String = "Hello world"
+    </code>
+</pre>
 
 Le mot clé **val** rend l’assignation définitive comme final de Java.
 ```shell
