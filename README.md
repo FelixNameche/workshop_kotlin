@@ -26,6 +26,7 @@ Google a affirmé haut et fort que le support de Java, C et C++ sera le même qu
 ## Mise en place
 ### Val et var
 
+ Le mot clé ***var*** permet, comme en Java, de déclarer une variable ré-assignable.
 ```shell
 composer update
 ```
