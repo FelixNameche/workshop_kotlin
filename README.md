@@ -1,4 +1,4 @@
-# workshop_kotlin
+# Workshop Kotlin
 
 ![Logo Laravel](kotlin.png)
 
