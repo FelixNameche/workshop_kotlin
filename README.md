@@ -27,22 +27,13 @@ Google a affirmé haut et fort que le support de Java, C et C++ sera le même qu
 ### Val et var
 
  Le mot clé **var** permet, comme en Java, de déclarer une variable ré-assignable.
-```console
+```shell
 //Java
 String firstName = "Hello world";
 
 //Kotlin
 var firstName: String = "Hello world"
 ```
-<pre>
-    <code>
-        //Java
-        String firstName = "Hello world";
-
-        //Kotlin
-        var firstName: String = "Hello world"
-    </code>
-</pre>
 
 Le mot clé **val** rend l’assignation définitive comme final de Java.
 ```shell
@@ -56,6 +47,9 @@ val firstName: String = "Hello world"
 ### Data
 
 Le mot clé **data** indique au compilateur que la classe est utilisée pour représenter une entité. Mais il permet aussi de générer un certain nombre de méthodes utiles comme les méthodes **toString()**, **copy()**, **equals()**, **hashCode()** ou les déclarations déstructurées de l’objet par exemple.
+```shell
+data class Contact (val firstName: String, val lastName: String)
+```
 .  
 .  
 .  
