@@ -7,7 +7,11 @@
 
 ***Définition:*** Kotlin est un langage de programmation orienté objet et fonctionnel, avec un typage statique qui permet de compiler pour la machine virtuelle Java et JavaScript.  
   
-Avant Kotlin, Google ne supportait que le langage Java pour développer les fameuses applications que vous utilisez au quotidien. Kotlin ne nécessite en aucun cas de réécrire l’ensemble des applications. Il est tout à fait possible de faire cohabiter du code Java et du code Kotlin. On comprend aisément pourquoi Google a opté pour cette solution qui offre une transition en douceur. Kotlin est également un langage robuste et éprouvé, puisqu’il est disponible depuis près de cinq années et qu’il est déjà utilisé en production sur des applications Android. Quelques exemples : Flipboard, Pinterest ou Expedia.
+Avant Kotlin, Google ne supportait que le langage Java pour développer les fameuses applications que vous utilisez au quotidien. Kotlin ne nécessite en aucun cas de réécrire l’ensemble des applications. Il est tout à fait possible de faire cohabiter du code Java et du code Kotlin. On comprend aisément pourquoi Google a opté pour cette solution qui offre une transition en douceur. Kotlin est également un langage robuste et éprouvé, puisqu’il est disponible depuis près de six années et qu’il est déjà utilisé en production sur des applications Android. Quelques exemples : Flipboard, Pinterest ou Expedia.
+
+### Qu’offre Kotlin ?
+Il offre beaucoup de fonctionnalités, c'est un language plus riche, flexible et concis. Quelques fonctionnalités : ne plus avoir besoin de mettre des points virgules à la fin de chaque instruction, l’inférence de type (mécanisme qui permet à un compilateur de rechercher automatiquement les types associés à des expressions, sans qu'ils soient indiqués explicitement dans le code source), étendre des classes existantes,…  
+ Une page officielle détaille plus précisément les [différences que l’on peut trouver avec Java.] (https://kotlinlang.org/docs/reference/comparison-to-java.html "link to différences que l’on peut trouver avec Java.")
 
 
 
