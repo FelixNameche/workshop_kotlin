@@ -47,6 +47,7 @@ En Kotlin, on distingue les variables dont on peut changer la valeur, et les var
 Il faut préciser le type de variable après le nom, et pas avant comme en Java.
 
 ### Types de base
+
 Les types sont équivalents aux types existants en Java : si ce n'est qu'en Kotlin, tout est objet et qu'il existe plus de types. Comme par exemple, le type Range (intervalle), avec lequelle on peut effectuer une boucle :
 ```
     for (i in 3..7){
@@ -73,6 +74,7 @@ Il est aussi possible de combiner un intervalle décroissant et une progression 
 ```
 
 ### Les tableaux
+
 Les tableaux sont représentés par la classe générique Array (contenant des valeurs d'un même type).  
 On peut construire un Array de deux manières différentes : soit par le constructeur Array, soit par la fonction arrayOf. La fonction arrayOf est plus proche de ce que l'on connaît en Java, tandis que le constructeur Array permet de bénéficier de plus de contrôle sur l'initialisation :
 ```
@@ -107,6 +109,7 @@ Les tableaux disposent aussi de fonctions supplémentaires par rapport à leur v
 ```
 
 ### Interpolation de chaînes
+
 Cette fonctionnalité nous permet de concaténer des chaînes plus facilement. Si en java nous voulons écrire une séquence du type :
 ```
   int a = 10;
@@ -125,6 +128,14 @@ Ainsi :
 - On utilise qu'une seule chaîne de caractères
 - $a permet de substituer la valeur de la variable a dans la chaîne, quel que soit son type (souvenez-vous qu'en Kotlin, tout est objet)
 - ${b*2} s'écrit avec accolades étant donné qu'il s'agit d'une expression, et non plus d'une simple référence à une variable
+
+### Expressions
+
+Toute instruction qui retourne une valeur constitue une expression : simple valeur littérale (3, « Toto »…), expression arithmétique ou booléenne, appel de fonction (même une fonction ne retournant aucune valeur exploitable : c'est-à-dire une fonction définie comme retournant Unit), déclaration d'une fonction anonyme… Ces expressions peuvent donc être utilisées pour initialiser des variables.
+```
+        val message = if (age < 18) "C'est un mineur !" else "Il est majeur."
+        println(message)
+```
 
 
 ### Il vaut mieux utiliser IntelliJ IDEA ou Android Studio pour Kotlin
