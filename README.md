@@ -168,9 +168,9 @@ On peut s'affranchir des accolades si on a besoin que d'une simple expression po
   
 Si l'on souhaite parcourir un tableau tout en conservant les valeurs des différents index, on peut utilise la méthode withIndex() mais avec une syntaxe un peu particulière pour les variables d'index et de valeur :
 ```
-  val monTableau = arrayOf(2,3,5,7,11,13)
-  for ((index, valeur) in monTableau.withIndex()) {
-     println("$index: $valeur")
+  val monTableau2 = arrayOf(5,80,78,1,3,16)
+  for ((index, valeur) in monTableau2.withIndex()) {
+      println("$index: $valeur")
   }
 ```
 
