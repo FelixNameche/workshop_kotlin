@@ -58,7 +58,15 @@ for (i in 10 downTo 0) {
 ```
 Il est aussi possible de préciser une progression autre que 1 :
 ```
-for (i in 2..36 step 3) println(i) // Affiche les nombres 2,5,8,…,35
+for (i in 2..36 step 3) {
+    println(i)
+} // Affiche les nombres 2,5,8,…,35
+```
+Il est aussi possible de combiner un intervalle décroissant et une progression définie :
+```
+for (i in 36 downTo 2 step 3) {
+    println(i) 
+} // Affiche les nombres 36,33,…,3
 ```
 .  
 .  
