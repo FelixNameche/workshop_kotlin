@@ -18,7 +18,8 @@ Quelques fonctionnalités :
 - ne plus avoir besoin de mettre des points virgules à la fin de chaque instruction
 - l’inférence de type (mécanisme qui permet à un compilateur de rechercher automatiquement les types associés à des expressions, sans qu'ils soient indiqués explicitement dans le code source) 
 - étendre des classes existantes
-- ...  
+- ...
+
 Une page officielle détaille plus précisément les différences que l’on peut trouver avec Java : https://kotlinlang.org/docs/reference/comparison-to-java.html
 
 ### Quel avenir pour Java et C/C++ sur Android ?
