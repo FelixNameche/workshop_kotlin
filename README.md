@@ -35,12 +35,13 @@ En Kotlin, on distingue les variables dont on peut changer la valeur, et les var
 - Le mot clé **var** permet, comme en Java, de déclarer une variable ré-assignable.
 - Le mot clé **val** rend l’assignation définitive comme final de Java.
 ```
-val nom:String = "Toto"
-// nom = "Dodo" // Interdit !!! Car nom a été déclaré avec val
-var age = 10
-age += 12 // aucun problème car age est altérable.
-println(nom)
-println(age)
+    val nom:String = "Toto"
+	  // nom = "Dodo" // Interdit !!! Car nom a été déclaré avec val
+	  var age = 10
+	  age += 12 // aucun problème car age est altérable.
+    
+    println(nom)
+    println(age)
 ```
 
 Il faut préciser le type de variable après le nom, et pas avant comme en Java.
@@ -48,38 +49,43 @@ Il faut préciser le type de variable après le nom, et pas avant comme en Java.
 ### Types de base
 Les types sont équivalents aux types existants en Java : si ce n'est qu'en Kotlin, tout est objet et qu'il existe plus de types. Comme par exemple, le type Range (intervalle), avec lequelle on peut effectuer une boucle :
 ```
-for (i in 3..7){
-    println(i)
-} // Affiche les chiffres de 3 à 7 sur plusieurs lignes.
+    for (i in 3..7){
+      println(i)
+    } // Affiche les chiffres de 3 à 7 sur plusieurs lignes.
 ```
 On peut aussi obtenir une intervalle décroissant avec downTo :
 ```
-for (i in 10 downTo 0) {
-    println(i)
-} // Compte à rebours de 10 à 0, sur plusieurs lignes.
+    for (i in 10 downTo 0) {
+      println(i)
+    } // Compte à rebours de 10 à 0, sur plusieurs lignes.
 ```
 Il est aussi possible de préciser une progression autre que 1 :
 ```
-for (i in 2..36 step 3) {
-    println(i)
-} // Affiche les nombres 2,5,8,…,35
+    for (i in 2..36 step 3) {
+      println(i)
+    } // Affiche les nombres 2,5,8,…,35
 ```
 Il est aussi possible de combiner un intervalle décroissant et une progression définie :
 ```
-for (i in 36 downTo 2 step 3) {
-    println(i) 
-} // Affiche les nombres 36,33,…,3
+    for (i in 36 downTo 2 step 3) {
+      println(i) 
+	  } // Affiche les nombres 36,33,…,3
 ```
 
 ### Les tableaux
 Les tableaux sont représentés par la classe générique Array (contenant des valeurs d'un même type).  
 On peut construire un Array de deux manières différentes : soit par le constructeur Array, soit par la fonction arrayOf. La fonction arrayOf est plus proche de ce que l'on connaît en Java, tandis que le constructeur Array permet de bénéficier de plus de contrôle sur l'initialisation :
 ```
-val tableau1 = arrayOf(2,10,-1,4,9)
-val tableau2 = Array(10, { i -> i * 2 })
-tableau1[0] = 99
-tableau1.forEach { println(it) }
-tableau2.forEach { println(it) }
+    val tableau1 = arrayOf(2,10,-1,4,9)
+	  val tableau2 = Array(10, { i -> i * 2 })
+    tableau1[0] = 99
+    
+	  tableau1.forEach { 
+      println(it) 
+    }
+    tableau2.forEach { 
+      println(it) 
+    }
 ```
 Plusieurs remarques au sujet de l'initialisation via le constructeur :
 
