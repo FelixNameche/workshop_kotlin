@@ -164,7 +164,9 @@ Tout comme pour les boucles while (do...while), les mots-clés break et continue
       println("$premier est un nombre premier")
   }
 ```
-
+On peut s'affranchir des accolades si on a besoin que d'une simple expression pour la boucle for.  
+  
+si l'on souhaite parcourir un tableau tout en conservant les valeurs des différents index, on peut utilise la méthode withIndex() mais avec une syntaxe un peu particulière pour les variables d'index et de valeur :
 
 ### Il vaut mieux utiliser IntelliJ IDEA ou Android Studio pour Kotlin
 ### Installation
