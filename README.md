@@ -68,6 +68,9 @@ for (i in 36 downTo 2 step 3) {
     println(i) 
 } // Affiche les nombres 36,33,…,3
 ```
+
+### Les tableaux
+
 .  
 .  
 .  
