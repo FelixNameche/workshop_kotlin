@@ -39,6 +39,8 @@ val nom:String = "Toto"
 // nom = "Dodo" // Interdit !!! Car nom a été déclaré avec val
 var age = 10
 age += 12 // aucun problème car age est altérable.
+println(nom)
+println(age)
 ```
 
 Il faut préciser le type de variable après le nom, et pas avant comme en Java.
