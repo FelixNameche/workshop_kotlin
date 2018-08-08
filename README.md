@@ -33,7 +33,7 @@ En Kotlin, on distingue les variables dont on peut changer la valeur, et les var
 
 - Le mot clé **var** permet, comme en Java, de déclarer une variable ré-assignable.
 - Le mot clé **val** rend l’assignation définitive comme final de Java.
-```shell
+```
 val nom:String = "Toto"
 // nom = "Dodo" // Interdit !!! Car nom a été déclaré avec val
 var age = 10
@@ -44,19 +44,19 @@ Il faut préciser le type de variable après le nom, et pas avant comme en Java.
 
 ### Types de base
 Les types sont équivalents aux types existants en Java : si ce n'est qu'en Kotlin, tout est objet et qu'il existe plus de types. Comme par exemple, le type Range (intervalle), avec lequelle on peut effectuer une boucle :
-```shell
+```
 for (i in 3..7){
     println(i)
 } // Affiche les chiffres de 3 à 7 sur plusieurs lignes.
 ```
 On peut aussi obtenir une intervalle décroissant avec downTo :
-```shell
+```
 for (i in 10 downTo 0) {
     println(i)
 } // Compte à rebours de 10 à 0, sur plusieurs lignes.
 ```
 Il est aussi possible de préciser une progression autre que 1 :
-```shell
+```
 for (i in 2..36 step 3) println(i) // Affiche les nombres 2,5,8,…,35
 ```
 .  
