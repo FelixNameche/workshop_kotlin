@@ -70,7 +70,15 @@ for (i in 36 downTo 2 step 3) {
 ```
 
 ### Les tableaux
-
+Les tableaux sont représentés par la classe générique Array (contenant des valeurs d'un même type).  
+On peut construire un Array de deux manières différentes : soit par le constructeur Array, soit par la fonction arrayOf. La fonction arrayOf est plus proche de ce que l'on connaît en Java, tandis que le constructeur Array permet de bénéficier de plus de contrôle sur l'initialisation :
+```
+val tableau1 = arrayOf(2,10,-1,4,9)
+val tableau2 = Array(10, { i -> i * 2 }) // utilisation d'une fonction lambda (fonction anonyme)
+assert(tableau1[1] == 10) // On accède aux éléments comme en Java
+tableau1[0] = 170
+assert(tableau1[0] == 170) // De même pour la modification
+```
 .  
 .  
 .  
