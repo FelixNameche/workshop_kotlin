@@ -105,6 +105,9 @@ Les tableaux disposent aussi de fonctions supplémentaires par rapport à leur v
     println(tab.take(3)) // les 3 premiers éléments du tableau
     println(tab.drop(3)) // le tableau sans ses 3 premiers éléments
 ```
+
+### Interpolation de chaînes
+Cette fonctionnalité nous permet de concaténer des chaînes plus facilement. Si en java nous voulons écrire une séquence du type :
 .  
 .  
 .  
