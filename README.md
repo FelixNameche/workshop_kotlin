@@ -75,6 +75,9 @@ On peut construire un Array de deux manières différentes : soit par le constru
 ```
 val tableau1 = arrayOf(2,10,-1,4,9)
 val tableau2 = Array(10, { i -> i * 2 })
+tableau1[0] = 99
+tableau1.forEach { println(it) }
+tableau2.forEach { println(it) }
 ```
 Plusieurs remarques au sujet de l'initialisation via le constructeur :
 
