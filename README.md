@@ -77,10 +77,10 @@ Les tableaux sont représentés par la classe générique Array (contenant des v
 On peut construire un Array de deux manières différentes : soit par le constructeur Array, soit par la fonction arrayOf. La fonction arrayOf est plus proche de ce que l'on connaît en Java, tandis que le constructeur Array permet de bénéficier de plus de contrôle sur l'initialisation :
 ```
     val tableau1 = arrayOf(2,10,-1,4,9)
-	  val tableau2 = Array(10, { i -> i * 2 })
+    val tableau2 = Array(10, { i -> i * 2 })
     tableau1[0] = 99
     
-	  tableau1.forEach { 
+    tableau1.forEach { 
       println(it) 
     }
     tableau2.forEach { 
