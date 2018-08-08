@@ -86,10 +86,18 @@ Plusieurs remarques au sujet de l'initialisation via le constructeur :
 - Le premier paramètre décrit le nombre d'éléments du tableau
 - Le deuxième est une fonction qui prend l'index de l'élément à initialiser et qui retourne une valeur.
 
-Rien ne nous empêche de déclarer des tableau multi-dimensionnels, que ce soit par le biais du constructeur ou de la fonction arrayOf :
+Les tableaux disposent aussi de fonctions supplémentaires par rapport à leur version Java. Parmi la multitude de fonctions :
 ```
-val tableau3 = arrayOf(arrayOf(1,2,3), arrayOf(4,5))
-val tableau4 = Array(3, {i -> Array(3, {j -> i*j})})
+val tab = arrayOf(7,10,15,3,6,9,12)
+tab.sum()
+tab.reverse()
+tab.reversed()
+tab.min()
+tab.max()
+tab.first()
+tab.last()
+tab.take(3) // les 3 premiers éléments du tableau sans le modifier
+tab.drop(3) // le tableau sans ses 3 premiers éléments sans le modifier
 ```
 .  
 .  
