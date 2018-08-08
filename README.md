@@ -9,14 +9,16 @@ __**Définition:**__ Kotlin est un langage de programmation orienté objet et fo
   
 C'est le nouveau langage de programmation Open Source supporté par Google pour les applications Android (mais aussi pour le back-end Java et les moteurs JavaScript des navigateurs web). Il a pour but d’améliorer la productivité des développeurs, tout en restant compatible avec le code existant. Il est également possible de le compiler en natif.
 
-Avant Kotlin, Google ne supportait que le langage Java pour développer les fameuses applications que vous utilisez au quotidien. Kotlin ne nécessite en aucun cas de réécrire l’ensemble des applications. Il est tout à fait possible de faire cohabiter du code Java et du code Kotlin. On comprend aisément pourquoi Google a opté pour cette solution qui offre une transition en douceur. Kotlin est également un langage robuste et éprouvé, puisqu’il est disponible depuis près de six années et qu’il est déjà utilisé en production sur des applications Android.
-
-Quelques exemples : Flipboard, Pinterest ou Expedia.
+Avant Kotlin, Google ne supportait que le langage Java pour développer des applications. Kotlin ne nécessite en aucun cas de réécrire l’ensemble des applications. Il est tout à fait possible de faire cohabiter du code Java et du code Kotlin. C'est pourquoi Google a opté pour cette solution qui offre une transition en douceur. Kotlin est également un langage robuste et éprouvé, puisqu’il est disponible depuis près de six années et qu’il est déjà utilisé en production sur des applications Android. (Flipboard, Pinterest, Expedia, ...)
 
 ### Qu’offre Kotlin ?
 
 Il offre beaucoup de fonctionnalités, c'est un language plus riche, flexible et concis. 
-Quelques fonctionnalités : ne plus avoir besoin de mettre des points virgules à la fin de chaque instruction, l’inférence de type (mécanisme qui permet à un compilateur de rechercher automatiquement les types associés à des expressions, sans qu'ils soient indiqués explicitement dans le code source), étendre des classes existantes,…  
+Quelques fonctionnalités :   
+- ne plus avoir besoin de mettre des points virgules à la fin de chaque instruction
+- l’inférence de type (mécanisme qui permet à un compilateur de rechercher automatiquement les types associés à des expressions, sans qu'ils soient indiqués explicitement dans le code source) 
+- étendre des classes existantes
+- ...  
 Une page officielle détaille plus précisément les différences que l’on peut trouver avec Java : https://kotlinlang.org/docs/reference/comparison-to-java.html
 
 ### Quel avenir pour Java et C/C++ sur Android ?
