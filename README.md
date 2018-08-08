@@ -215,4 +215,7 @@ https://codelabs.developers.google.com/
 
 # FIN
 
+![Thanks](thanks.jpg)
+
+
 
