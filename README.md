@@ -28,6 +28,7 @@ Google a affirmé haut et fort que le support de Java, C et C++ sera le même qu
   
 ## Bases du langage
 ### Déclarations de variables
+https://try.kotlinlang.org/
 
 En Kotlin, on distingue les variables dont on peut changer la valeur, et les variables immuables :  
 
