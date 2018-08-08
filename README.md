@@ -29,7 +29,7 @@ Google a affirmé haut et fort que le support de Java, C et C++ sera le même qu
 ## Bases du langage
 ### Déclarations de variables
 
-En Kotlin, on distingue les variables dont on peut changer la valeur, et les variables immuables qui ne sont pas tout à fait des constantes :  
+En Kotlin, on distingue les variables dont on peut changer la valeur, et les variables immuables :  
 
  - Le mot clé **var** permet, comme en Java, de déclarer une variable ré-assignable.
 ```shell
@@ -48,6 +48,8 @@ final String firstName = "Hello world";
 //Kotlin
 val firstName: String = "Hello world"
 ```
+
+Il faut préciser le type de variable après le nom, et pas avant comme en Java.
 
 ### Data
 
