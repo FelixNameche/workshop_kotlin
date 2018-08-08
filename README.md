@@ -210,7 +210,7 @@ Si erreur -> Error:Unable to run mksdcard SDK tool in ubuntu
   sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6 
 
 ```
-Si vous souhaitez en apprendre plus sur Kotlin, je vous conseille ce lien :
+# Si vous souhaitez en apprendre plus sur Kotlin, je vous conseille ce lien :
 https://codelabs.developers.google.com/
 
 ![Thanks](thanks.jpg)
