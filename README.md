@@ -75,9 +75,6 @@ On peut construire un Array de deux manières différentes : soit par le constru
 ```
 val tableau1 = arrayOf(2,10,-1,4,9)
 val tableau2 = Array(10, { i -> i * 2 }) // utilisation d'une fonction lambda (fonction anonyme)
-assert(tableau1[1] == 10) // On accède aux éléments comme en Java
-tableau1[0] = 170
-assert(tableau1[0] == 170) // De même pour la modification
 ```
 .  
 .  
