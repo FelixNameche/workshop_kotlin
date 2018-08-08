@@ -88,8 +88,8 @@ Plusieurs remarques au sujet de l'initialisation via le constructeur :
 
 Rien ne nous empêche de déclarer des tableau multi-dimensionnels, que ce soit par le biais du constructeur ou de la fonction arrayOf :
 ```
-val tableau1 = arrayOf(arrayOf(1,2,3), arrayOf(4,5))
-val tableau2 = Array(3, {i -> Array(3, {j -> i*j})})
+val tableau3 = arrayOf(arrayOf(1,2,3), arrayOf(4,5))
+val tableau4 = Array(3, {i -> Array(3, {j -> i*j})})
 ```
 .  
 .  
