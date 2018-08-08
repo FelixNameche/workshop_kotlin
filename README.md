@@ -74,7 +74,17 @@ Les tableaux sont représentés par la classe générique Array (contenant des v
 On peut construire un Array de deux manières différentes : soit par le constructeur Array, soit par la fonction arrayOf. La fonction arrayOf est plus proche de ce que l'on connaît en Java, tandis que le constructeur Array permet de bénéficier de plus de contrôle sur l'initialisation :
 ```
 val tableau1 = arrayOf(2,10,-1,4,9)
-val tableau2 = Array(10, { i -> i * 2 }) // utilisation d'une fonction lambda (fonction anonyme)
+val tableau2 = Array(10, { i -> i * 2 }) //constructeur
+```
+Plusieurs remarques au sujet de l'initialisation via le constructeur :
+
+- Le premier paramètre décrit le nombre d'éléments du tableau
+- Le deuxième est une fonction qui prend l'index de l'élément à initialiser et qui retourne une valeur.
+
+Rien ne nous empêche de déclarer des tableau multi-dimensionnels, que ce soit par le biais du constructeur ou de la fonction arrayOf :
+```
+val tableau1 = arrayOf(arrayOf(1,2,3), arrayOf(4,5))
+val tableau2 = Array(3, {i -> Array(3, {j -> i*j})})
 ```
 .  
 .  
