@@ -174,43 +174,42 @@ Si l'on souhaite parcourir un tableau tout en conservant les valeurs des différ
   }
 ```
 
-### Il vaut mieux utiliser IntelliJ IDEA ou Android Studio pour Kotlin
-### Installation
-How to install Oracle Java JDK on Ubuntu Linux
+## IntelliJ IDEA ou Android Studio pour Kotlin
+### Installer Oracle Java JDK
 
 Ouvrez le terminal
+```
+  sudo apt-add-repository ppa:webupd8team/java 
 
-sudo apt-add-repository ppa:webupd8team/java 
+  sudo apt-get update 
 
-sudo apt-get update 
+  sudo apt-get install oracle-java8-installer
 
-sudo apt-get install oracle-java8-installer
+  java -version
 
-java -version
+  sudo gedit /etc/profile
+```
+Ajouter à la fin du fichier
+```
+  export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 
-clear
+```
 
-sudo gedit /etc/profile
-
-export JAVA_HOME=/usr/lib/jvm/java-8-oracle
-
-
-
-
-How to install Android Studio in Ubuntu Linux
+### Installer Android Studio
 
 https://developer.android.com/studio/
 
 Ouvrez le terminal dans le dossier bin
+```
+  sudo chmod 777 -R studio.sh
+  ./studio.sh
 
-sudo chmod 777 -R studio.sh
+```
+Si erreur -> Error:Unable to run mksdcard SDK tool in ubuntu
+```
+  sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6 
 
-./studio.sh
-
-Si erreur -> Error:Unable to run mksdcard SDK tool in ubuntu 
-
-sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6 
-
+```
 
 https://codelabs.developers.google.com/
 
