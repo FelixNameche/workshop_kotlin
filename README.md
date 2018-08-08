@@ -36,9 +36,9 @@ En Kotlin, on distingue les variables dont on peut changer la valeur, et les var
 - Le mot clé **val** rend l’assignation définitive comme final de Java.
 ```
     val nom:String = "Toto"
-	  // nom = "Dodo" // Interdit !!! Car nom a été déclaré avec val
-	  var age = 10
-	  age += 12 // aucun problème car age est altérable.
+    // nom = "Dodo" // Interdit !!! Car nom a été déclaré avec val
+    var age = 10
+    age += 12 // aucun problème car age est altérable.
     
     println(nom)
     println(age)
