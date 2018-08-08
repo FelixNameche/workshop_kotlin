@@ -43,12 +43,22 @@ age += 12 // aucun problème car age est altérable.
 Il faut préciser le type de variable après le nom, et pas avant comme en Java.
 
 ### Types de base
-Les types numériques Byte, Short, Int, Long, Float, et Double sont équivalents aux types existants en Java : si ce n'est qu'en Kotlin, tout est objet. Donc on écrit :
+Les types sont équivalents aux types existants en Java : si ce n'est qu'en Kotlin, tout est objet et qu'il existe plus de types. Comme par exemple, le type Range (intervalle), avec lequelle on peut effectuer une boucle :
 ```shell
-2.toString()
-10.downTo(0) // génère le range (c'est à dire l'intervalle) décroissant   de 10 à 0.
+for (i in 3..7){
+    println(i)
+} // Affiche les chiffres de 3 à 7 sur plusieurs lignes.
 ```
-
+On peut aussi obtenir une intervalle décroissant avec downTo :
+```shell
+for (i in 10 downTo 0) {
+    println(i)
+} // Compte à rebours de 10 à 0, sur plusieurs lignes.
+```
+Il est aussi possible de préciser une progression autre que 1 :
+```shell
+for (i in 2..36 step 3) println(i) // Affiche les nombres 2,5,8,…,35
+```
 .  
 .  
 .  
