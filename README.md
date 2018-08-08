@@ -213,6 +213,6 @@ Si erreur -> Error:Unable to run mksdcard SDK tool in ubuntu
 Si vous souhaitez en apprendre plus sur Kotlin, je vous conseille ce lien :
 https://codelabs.developers.google.com/
 
-#FIN
+# FIN
 
 
