@@ -133,8 +133,36 @@ Ainsi :
 
 Toute instruction qui retourne une valeur constitue une expression : simple valeur littérale (3, « Toto »…), expression arithmétique ou booléenne, appel de fonction (même une fonction ne retournant aucune valeur exploitable : c'est-à-dire une fonction définie comme retournant Unit), déclaration d'une fonction anonyme… Ces expressions peuvent donc être utilisées pour initialiser des variables.
 ```
-        val message = if (age < 18) "C'est un mineur !" else "Il est majeur."
-        println(message)
+  val message = if (age < 18) "C'est un mineur !" else "Il est majeur."
+  println(message)
+```
+
+### L'instruction while
+
+L'instruction while (ou do ... while) en Kotlin, tout comme en Java, ne retourne pas d'expression. Elle s'utilise aussi comme en Java :
+```
+  var i = 0
+  while (i < 10) {
+    i += 1
+    println(i)
+  }
+
+  var j = 0
+  do {
+     j += 1
+     println(j)
+  } while (j < 10)
+```
+Les mots-clés break et continue fonctionnent comme en Java.
+
+### L'instruction for
+
+Tout comme pour les boucles while (do...while), les mots-clés break et continue fonctionnent comme en Java. Mais l'utilisation de l'instruction for en Java (initialisation/condition/mise à jour accompagnée d'un bloc d'instructions) est strictement interdite en Kotlin. On ne peut utiliser la boucle for que sur des objets « iterable » :
+```
+  val monTableau = arrayOf(2,3,5,7,11,13)
+  for (premier in monTableau) {
+      println("$premier est un nombre premier")
+  }
 ```
 
 
