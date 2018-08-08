@@ -42,18 +42,13 @@ age += 12 // aucun problème car age est altérable.
 
 Il faut préciser le type de variable après le nom, et pas avant comme en Java.
 
-### Data
+### Types de base
+Les types numériques Byte, Short, Int, Long, Float, et Double sont équivalents aux types existants en Java : si ce n'est qu'en Kotlin, tout est objet. Donc on écrit :
+```shell
+2.toString()
+10.downTo(0) // génère le range (c'est à dire l'intervalle) décroissant   de 10 à 0.
+```
 
-Le mot clé **data** indique au compilateur que la classe est utilisée pour représenter une entité. Mais il permet aussi de générer un certain nombre de méthodes utiles comme les méthodes **toString()**, **copy()**, **equals()**, **hashCode()** ou les déclarations déstructurées de l’objet par exemple.
-```shell
-data class Contact (val firstName: String, val lastName: String)
-```
-Une déclaration déstructurée génère plusieurs variables à la fois. Ici, je déckare deux nouvelles variables : nom et âge que je pourrai utiliser indépendamment.
-```shell
-val (firstname, lastname) = Contact("john", "rambo")
-println(firstname)
-println(lastname)
-```
 .  
 .  
 .  
