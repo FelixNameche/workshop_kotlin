@@ -29,6 +29,8 @@ Google a affirmé haut et fort que le support de Java, C et C++ sera le même qu
 ## Bases du langage
 ### Déclarations de variables
 
+En Kotlin, on distingue les variables dont on peut changer la valeur, et les variables immuables qui ne sont pas tout à fait des constantes :  
+
  - Le mot clé **var** permet, comme en Java, de déclarer une variable ré-assignable.
 ```shell
 //Java
