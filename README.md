@@ -121,16 +121,12 @@ En Kotlin on pourra simplement écrire :
   val c = "abc"
   println("[$a, ${b*2}, $c]")
 ```
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
+Ainsi :
+- On utilise qu'une seule chaîne de caractères
+- $a permet de substituer la valeur de la variable a dans la chaîne, quel que soit son type (souvenez-vous qu'en Kotlin, tout est objet)
+- ${b*2} s'écrit avec accolades étant donné qu'il s'agit d'une expression, et non plus d'une simple référence à une variable
+
+
 ### Il vaut mieux utiliser IntelliJ IDEA ou Android Studio pour Kotlin
 ### Installation
 How to install Oracle Java JDK on Ubuntu Linux
