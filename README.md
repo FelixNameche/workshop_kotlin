@@ -31,22 +31,13 @@ Google a affirmé haut et fort que le support de Java, C et C++ sera le même qu
 
 En Kotlin, on distingue les variables dont on peut changer la valeur, et les variables immuables :  
 
- - Le mot clé **var** permet, comme en Java, de déclarer une variable ré-assignable.
-```shell
-//Java
-String firstName = "Hello world";
-
-//Kotlin
-var firstName: String = "Hello world"
-```
-
+- Le mot clé **var** permet, comme en Java, de déclarer une variable ré-assignable.
 - Le mot clé **val** rend l’assignation définitive comme final de Java.
 ```shell
-//Java
-final String firstName = "Hello world";
-
-//Kotlin
-val firstName: String = "Hello world"
+val nom:String = "Toto"
+// nom = "Dodo" // Interdit !!! Car nom a été déclaré avec val
+var age = 10
+age += 12 // aucun problème car age est altérable.
 ```
 
 Il faut préciser le type de variable après le nom, et pas avant comme en Java.
