@@ -88,16 +88,16 @@ Plusieurs remarques au sujet de l'initialisation via le constructeur :
 
 Les tableaux disposent aussi de fonctions supplémentaires par rapport à leur version Java. Parmi la multitude de fonctions :
 ```
-val tab = arrayOf(7,10,15,3,6,9,12)
-tab.sum()
-tab.reverse()
-tab.reversed()
-tab.min()
-tab.max()
-tab.first()
-tab.last()
-tab.take(3) // les 3 premiers éléments du tableau sans le modifier
-tab.drop(3) // le tableau sans ses 3 premiers éléments sans le modifier
+    val tab = arrayOf(7,10,15,3,6,9,12)
+    
+    println(tab.sum())
+    println(tab.reversed())
+    println(tab.min())
+    println(tab.max())
+    println(tab.first())
+    println(tab.last())
+    println(tab.take(3)) // les 3 premiers éléments du tableau
+    println(tab.drop(3)) // le tableau sans ses 3 premiers éléments
 ```
 .  
 .  
