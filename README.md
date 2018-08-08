@@ -108,6 +108,19 @@ Les tableaux disposent aussi de fonctions supplémentaires par rapport à leur v
 
 ### Interpolation de chaînes
 Cette fonctionnalité nous permet de concaténer des chaînes plus facilement. Si en java nous voulons écrire une séquence du type :
+```
+  int a = 10;
+  int b = 6;
+  String c = "abc";
+  System.out.println("[" + a + ", " + b*2 + ", " + c + "]");
+```
+En Kotlin on pourra simplement écrire :
+```
+  val a = 10
+  val b = 6
+  val c = "abc"
+  println("[$a, ${b*2}, $c]")
+```
 .  
 .  
 .  
