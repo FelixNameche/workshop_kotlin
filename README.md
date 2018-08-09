@@ -44,8 +44,6 @@ En Kotlin, on distingue les variables dont on peut changer la valeur, et les var
     println(age)
 ```
 
-Il faut préciser le type de variable après le nom, et pas avant comme en Java.
-
 ### Types de base
 
 Les types sont équivalents aux types existants en Java : si ce n'est qu'en Kotlin, tout est objet et qu'il existe plus de types. Comme par exemple, le type Range (intervalle), avec lequelle on peut effectuer une boucle :
